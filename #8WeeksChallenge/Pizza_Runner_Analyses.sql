@@ -1,11 +1,25 @@
 -------------------------------		CHALLENGE WEEK 2		------------------------------
 
+SELECT *
+FROM customer_orders;
+
+SELECT *
+FROM pizza_names;
+
+SELECT *
+FROM pizza_recipes;
+
+SELECT *
+FROM pizza_toppings;
+
+SELECT *
+FROM runner_orders;
+
+SELECT *
+FROM runners;
 
 
 --------------------		DATA CLEANING		--------------------
-SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH
-FROM INFORMATION_SCHEMA.COLUMNS
-WHERE TABLE_NAME = 'pizza_recipes'
 
 ALTER TABLE pizza_recipes
 ALTER COLUMN toppings VARCHAR(255);
