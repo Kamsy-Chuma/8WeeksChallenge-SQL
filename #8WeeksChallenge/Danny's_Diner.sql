@@ -1,3 +1,5 @@
+--------------------		CHALLENGE WEEK 1	--------------------
+
 SELECT *
 FROM members;
 
